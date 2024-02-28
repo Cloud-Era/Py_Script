@@ -1,0 +1,35 @@
+Subject: Automated Report Generation using GitHub Actions
+
+Dear [Stakeholders],
+
+I hope this message finds you well.
+
+I am pleased to inform you that we have implemented an automated report generation process using GitHub Actions. This workflow will generate a report every Sunday based on data collected from our systems and services.
+
+YAML Workflow:
+
+Our GitHub repository now includes a YAML workflow file (workflow.yml) that defines the steps to be executed by GitHub Actions. This workflow is triggered every Sunday and performs the following tasks:
+
+Data Collection: Fetches the necessary data from our systems and services.
+Data Processing: Processes the collected data to generate insights and metrics.
+Report Generation: Generates a comprehensive report based on the processed data.
+Email Notification: Sends an email notification to stakeholders with the generated report attached.
+Prisma Python Script:
+
+The report generation process is facilitated by a Python script (prisma_report.py) that utilizes Prisma's capabilities to analyze and visualize the collected data. This script is executed as part of the YAML workflow and is responsible for generating the report in a format that is easy to understand and interpret.
+
+Benefits:
+
+Efficiency: By automating the report generation process, we save valuable time and resources that can be allocated to other important tasks.
+Accuracy: The automated process ensures consistency and accuracy in the generated reports, minimizing the risk of human error.
+Timeliness: Reports are generated every Sunday without manual intervention, ensuring timely access to critical insights and metrics.
+Next Steps:
+
+We encourage you to review the generated reports and provide any feedback or suggestions for improvement. Additionally, if there are any specific metrics or insights that you would like to include in future reports, please let us know, and we will incorporate them into the workflow accordingly.
+
+Thank you for your attention to this matter. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+[Your Name]
+[Your Position/Role]
+
